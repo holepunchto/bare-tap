@@ -1,0 +1,33 @@
+{
+  "name": "bare-tap",
+  "version": "1.0.0",
+  "description": "Minimal TAP library for Bare",
+  "exports": {
+    "./package": "./package.json",
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "prettier . --check && bare test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/bare-tap.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/bare-tap/issues"
+  },
+  "homepage": "https://github.com/holepunchto/bare-tap#readme",
+  "dependencies": {
+    "bare-assert": "^1.2.0"
+  },
+  "devDependencies": {
+    "brittle": "^3.3.2",
+    "prettier": "^3.4.2",
+    "prettier-config-holepunch": "^1.0.0"
+  }
+}
